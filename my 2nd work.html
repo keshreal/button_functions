@@ -1,0 +1,84 @@
+<html>
+<head>
+	<script language="javascript">
+		<!-- hide this script from incompactible web browser!
+		var timerw= null;
+		var clockw= null;
+		function opentimer() {
+			if(!timerw)
+				timerw
+			open("cptimer.htm","Timerwindow","width=300, height=100");
+		}
+		function openclock(){
+			if(!clockw)
+				clockw
+			open("cpclock.htm","clockwindow","width=50, height=25");
+		}
+		function closetimer(){
+			if(timerw) {
+				timerw.close();
+				timerw=null;
+			}		
+		}
+		function closeclock(){
+			if(clockw) {
+				clockw.close();
+				clockw=null;
+			}		
+		}
+		<!-- -->
+	</script>
+	
+</head>
+<body bgcolor="#EEEEEE">
+	<FORM>
+		<CENTER>
+			<TABLE>
+				<TR><TD>To Open Timer...</TD>
+					<td Align=center>
+						<INPUT        TYPE="button"
+						NAME="controlbutton" value= "click here!"
+						onclick="opentimer()"></td></tr>
+
+				<TR><TD>To close Timer...</TD>
+					<td Align=center>
+						<INPUT        TYPE="button"
+						NAME="controlbutton" value= "click here!"
+						onclick="closetimer()"></td></tr>
+
+				<TR><TD>To Open clock...</TD>
+					<td Align=center>
+						<INPUT        TYPE="button"
+						NAME="controlbutton" value= "click here!"
+						onclick="openclock()"></td></tr>
+
+				<TR><TD>To close clock...</TD>
+					<td Align=center>
+						<INPUT        TYPE="button"
+						NAME="controlbutton" value= "click here!"
+						onclick="closeclock()"></td></tr>
+
+				<TR><TD>To Open both...</TD>
+					<td Align=center>
+						<INPUT        TYPE="button"
+						NAME="controlbutton" value= "click here!"
+						onclick="opentimer();openclock();"></td></tr>
+
+				<TR><TD>To close both...</TD>
+					<td Align=center>
+						<INPUT        TYPE="button"
+						NAME="controlbutton" value= "click here!"
+						onclick="closetimer();closeclock();"></td></tr>
+						<tr><td></td></tr>
+
+				<TR><TD>To close everything...</TD>
+					<td Align=center>
+						<INPUT        TYPE="button"
+						NAME="controlbutton" value= "click here!"
+						onclick="closetimer();closeclock();self.close();"></td></tr>
+			</TABLE>
+		</CENTER>
+	</FORM>
+
+</body>
+</html>
